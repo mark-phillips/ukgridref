@@ -1,0 +1,71 @@
+Title (Maximum 50 Characters) 
+UK Grid Reference 
+
+Description (Maximum 4,000 Characters) 
+This simple data field can be added to any of the sports apps and displays a six figure UK Ordnance Survey Grid Reference and the compass direction of travel.  
+It is intended to be used when old-school hiking with paper maps for those occasions when you want to get a rough indiction of your current location and direction of travel.  
+
+The six figure grid reference is a good compromise between accuracy and readability on the screen.  It will locate your position to 100m square which doesn't look very accurate when plotted on a zoomed-in digital map but on a 1:25000 OS Explorer map it will put you somewhere in a 4mm x 4mm square which I've found to be good enough in the field.  I'd welcome feedback on other users experience with this. 
+
+The data field cycles through three screens: 
+  1. Heading and GPS precision where heading is given as one of 8 compass directions (N,NE,E,SE,S,SW,W,NW) and GPS is given as one of the following strings:
+      - Unknown - No location data is available 
+      - Old Fix - The location is the last GPS Fix stored on the device.  This should be treated with caution!
+      - Poor, Usable, or Good - For more information about the meaning of the GPS Accuracy see this forum post:  https://forums.garmin.com/archive/index.php/t-167917.html 
+  2. Six figure grid reference in the format XXeeennn
+  3. Heading (again) as a compass direction
+
+For more information about grid references see:  https://www.ordnancesurvey.co.uk/support/the-national-grid.html and https://en.wikipedia.org/wiki/Ordnance_Survey_National_Grid
+
+
+
+
+
+Category
+Choose the category that best fits your app. Categories are used to organize apps in the Connect IQ Store.
+
+Category 
+Subcategory (Optional) 
+
+Privacy Policy
+If your app collects user data, you must provide a link to your app’s privacy policy.
+
+Does your app collect user data?
+No
+
+Cover Image
+This image will be displayed on your Connect IQ Store listing. Image must be a JPG, GIF or PNG less than 150 KB. Image will be displayed as a square (400 x 400 pixels is recommended).
+
+Choose Image 
+ 
+Screen Images
+Screen images will be displayed on your app’s detail page in the Connect IQ Store. Image must be a JPG, GIF or PNG less than 150 KB. Image will be displayed as a square (400 x 400 pixels is recommended).
+
+Image 1
+Choose Image 
+ Image 2 (Optional)
+Choose Image 
+ Image 3 (Optional)
+Choose Image 
+ Image 4 (Optional)
+Choose Image 
+ Image 5 (Optional)
+Choose Image 
+ 
+Additional Information
+Your email address will not be directly exposed to users.
+
+Email Address 
+Source Code URL(Optional) 
+
+Companion Apps (Optional)
+If this app requires a companion app, you can direct users to it here.
+
+iOS Companion App URL 
+Android Companion App URL 
+
+Additional Hardware Requirements (Optional)
+If this app requires additional hardware, you can link to a web page that sells the hardware.
+
+Product URL 
+By submitting this app, you agree to our Developer License Agreement and Terms of Use.

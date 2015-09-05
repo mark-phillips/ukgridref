@@ -1,0 +1,3 @@
+clear
+echo Compiling 
+monkeyc -o ../bin/UkGridRef.prg -m ../manifest.xml -z ../resources/resources.xml  *.mc

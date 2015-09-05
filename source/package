@@ -1,0 +1,2 @@
+#package
+monkeyc -e -a ../../bin/api.db -i ../../bin/api.debug.xml -o ../export/UkGridRef.iq -w -z ../resources/resources.xml -m ../manifest.xml -u ../../bin/devices.xml -p ../../bin/projectInfo.xml $@

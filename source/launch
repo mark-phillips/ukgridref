@@ -1,0 +1,2 @@
+simulator &
+kill %1;  monkeydo ../bin/UkGridRef.prg &
