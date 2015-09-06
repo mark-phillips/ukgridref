@@ -19,24 +19,31 @@ class UkGridRefView extends Ui.SimpleDataField {
 //System.println("sec: " + current_second );
 
         //
-        //  Ten second display cycle - first render accuracy
+        //  Ten second display cycle - first render accuracy if GPS is not "good"
       if (info has :currentLocationAccuracy && info.currentLocationAccuracy < 4 &&  current_second <= 1  )
       {
           content = "GPS:" + render_accuracy_screen(info)  + " (" + getHeading(info) +")";
       }
       //
       // Render 6 figure grid ref
+      //  gr[0] - Grid square
+      //  gr[1] - Easting
+      //  gr[2] - Northing
+      //  gr[3] - Grid ref valid?
       else if (current_second <=3 ) {
             var gr = create_gridref_util(info,6).getGR();
-            content = gr[0] + " " + gr[1] + " " + gr[2];
+            content = gr[0];
+            if (gr[3] == true) {
+              content += " " + gr[1] + " " + gr[2];
+            }
       }
-      // Show Easting
+      // Show Easting & heading
       else if (current_second <=6 ) {
             var gr = create_gridref_util(info,8).getGR();
             content =  "E" + gr[1] + " (" + getHeading(info) +")";
       }
       //
-      // Show northing
+      // Show Northing & heading
       else if (current_second <=MAX_SECOND   ) {
             var gr = create_gridref_util(info,8).getGR();
             content =  "N" + gr[2] + " (" + getHeading(info) +")";
@@ -83,7 +90,7 @@ class UkGridRefView extends Ui.SimpleDataField {
   //  Calculate heading
     function getHeading(info)
     {
-      var heading = "--";
+      var heading = "?";
       if (info has :currentHeading && info.currentHeading != null )
       {
         heading = info.currentHeading;

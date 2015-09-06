@@ -2,201 +2,202 @@
 <debugInfo>
 <pcToLineNum>
 <entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefApp.mc" lineNum="21" pc="268435464" symbol="getInitialView"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="21" pc="268435505" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="22" pc="268435522" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="24" pc="268435526" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="25" pc="268435545" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="26" pc="268435564" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="27" pc="268435574" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="28" pc="268435597" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="29" pc="268435611" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="30" pc="268435639" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="31" pc="268435684" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="32" pc="268435700" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="33" pc="268435716" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="34" pc="268435732" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="37" pc="268435751" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="44" pc="268435770" symbol="getGR"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="7" pc="268439746" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="14" pc="268439756" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="15" pc="268440095" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="16" pc="268440121" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="52" pc="268435828" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="53" pc="268435838" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="54" pc="268435845" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="58" pc="268435852" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="60" pc="268435888" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="61" pc="268435918" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="62" pc="268435948" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="63" pc="268435955" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="64" pc="268435966" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="65" pc="268435977" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="67" pc="268435987" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="71" pc="268436008" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="72" pc="268436019" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="74" pc="268436029" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="77" pc="268436039" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="80" pc="268436046" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="81" pc="268436053" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="83" pc="268436084" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="85" pc="268436121" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="86" pc="268436143" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="87" pc="268436154" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="88" pc="268436173" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="91" pc="268436206" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="92" pc="268436225" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="96" pc="268436247" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="97" pc="268436260" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="99" pc="268436273" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="100" pc="268436277" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="103" pc="268436287" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="107" pc="268436294" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="108" pc="268436302" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="109" pc="268436312" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="110" pc="268436319" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="112" pc="268436329" symbol="toGridRef"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="118" pc="268436379" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="119" pc="268436386" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="120" pc="268436393" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="121" pc="268436400" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="122" pc="268436407" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="123" pc="268436420" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="125" pc="268436433" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="127" pc="268436458" symbol="WSG84_to_OSGB36"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="133" pc="268436464" symbol="isValidUKLocation"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="134" pc="268436559" symbol="isValidUKLocation"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="137" pc="268436565" symbol="isValidUKLocation"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="144" pc="268436571" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="145" pc="268436584" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="146" pc="268436591" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="147" pc="268436604" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="148" pc="268436617" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="149" pc="268436630" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="150" pc="268436643" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="151" pc="268436650" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="154" pc="268436657" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="155" pc="268436667" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="156" pc="268436731" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="157" pc="268436774" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="158" pc="268436817" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="160" pc="268436851" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="161" pc="268436870" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="162" pc="268436889" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="163" pc="268436908" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="164" pc="268436933" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="165" pc="268436958" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="167" pc="268436995" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="168" pc="268437017" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="169" pc="268437045" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="170" pc="268437076" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="171" pc="268437140" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="172" pc="268437147" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="173" pc="268437154" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="175" pc="268437165" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="176" pc="268437211" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="177" pc="268437229" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="179" pc="268437236" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="180" pc="268437261" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="181" pc="268437274" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="183" pc="268437287" symbol="transform_datum"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="192" pc="268437317" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="193" pc="268437327" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="195" pc="268437337" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="196" pc="268437350" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="197" pc="268437363" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="198" pc="268437370" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="199" pc="268437377" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="200" pc="268437384" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="201" pc="268437397" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="202" pc="268437404" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="203" pc="268437411" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="204" pc="268437424" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="205" pc="268437431" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="206" pc="268437438" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="208" pc="268437445" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="209" pc="268437482" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="210" pc="268437513" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="211" pc="268437538" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="212" pc="268437551" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="213" pc="268437558" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="214" pc="268437580" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="215" pc="268437619" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="216" pc="268437656" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="217" pc="268437678" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="218" pc="268437717" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="219" pc="268437756" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="220" pc="268437808" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="222" pc="268437881" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="223" pc="268437894" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="224" pc="268437915" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="225" pc="268437922" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="226" pc="268437968" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="227" pc="268438087" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="228" pc="268438136" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="230" pc="268438212" symbol="OSBG36_latlon_to_numeric_gridref"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="236" pc="268438242" symbol="Marc"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="240" pc="268438552" symbol="Marc"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="245" pc="268438558" symbol="floor"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="250" pc="268438573" symbol="abs"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="11" pc="268438601" symbol="initialize"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="17" pc="268438617" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="18" pc="268438624" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="23" pc="268438631" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="25" pc="268438682" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="30" pc="268438749" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="31" pc="268438778" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="35" pc="268438838" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="36" pc="268438867" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="41" pc="268438926" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="42" pc="268438955" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="46" pc="268439000" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="47" pc="268439014" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="50" pc="268439030" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="52" pc="268439049" symbol="compute"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="57" pc="268439055" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="59" pc="268439062" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="60" pc="268439073" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="61" pc="268439090" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="64" pc="268439117" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="67" pc="268439144" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="70" pc="268439171" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="73" pc="268439198" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="76" pc="268439208" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="79" pc="268439230" symbol="render_accuracy_screen"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="86" pc="268439236" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="87" pc="268439243" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="89" pc="268439270" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="90" pc="268439280" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="91" pc="268439311" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="92" pc="268439322" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="94" pc="268439335" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="95" pc="268439346" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="97" pc="268439367" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="99" pc="268439388" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="101" pc="268439409" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="103" pc="268439430" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="105" pc="268439451" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="107" pc="268439472" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="109" pc="268439493" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="111" pc="268439503" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="114" pc="268439513" symbol="getHeading"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="119" pc="268439519" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="120" pc="268439522" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="122" pc="268439549" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="124" pc="268439566" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="125" pc="268439585" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="127" pc="268439631" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="131" pc="268439682" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="132" pc="268439689" symbol="create_gridref_util"/>
-<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="134" pc="268439723" symbol="create_gridref_util"/>
-<entry filename="Rez" lineNum="5" pc="268440180" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268440167" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="20" pc="268435505" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="21" pc="268435522" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="23" pc="268435526" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="24" pc="268435545" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="25" pc="268435564" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="28" pc="268435574" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="29" pc="268435669" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="34" pc="268435682" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="35" pc="268435692" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="36" pc="268435720" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="38" pc="268435757" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="44" pc="268435770" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="45" pc="268435815" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="46" pc="268435831" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="47" pc="268435847" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="48" pc="268435863" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="54" pc="268435882" symbol="getGR"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="61" pc="268435956" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="62" pc="268435963" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="63" pc="268435970" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="67" pc="268435977" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="69" pc="268436013" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="70" pc="268436043" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="71" pc="268436073" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="72" pc="268436080" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="73" pc="268436091" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="74" pc="268436102" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="76" pc="268436112" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="80" pc="268436133" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="81" pc="268436144" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="83" pc="268436154" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="86" pc="268436164" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="89" pc="268436171" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="90" pc="268436178" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="92" pc="268436209" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="94" pc="268436246" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="95" pc="268436268" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="96" pc="268436279" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="97" pc="268436298" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="100" pc="268436331" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="101" pc="268436350" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="105" pc="268436372" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="106" pc="268436385" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="108" pc="268436398" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="109" pc="268436402" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="112" pc="268436412" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="116" pc="268436419" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="117" pc="268436427" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="118" pc="268436434" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="119" pc="268436441" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="121" pc="268436451" symbol="toGridRef"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="127" pc="268436501" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="128" pc="268436508" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="129" pc="268436515" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="130" pc="268436522" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="131" pc="268436529" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="132" pc="268436542" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="134" pc="268436555" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="136" pc="268436580" symbol="WSG84_to_OSGB36"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="142" pc="268436586" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="143" pc="268436599" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="144" pc="268436606" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="145" pc="268436619" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="146" pc="268436632" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="147" pc="268436645" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="148" pc="268436658" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="149" pc="268436665" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="152" pc="268436672" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="153" pc="268436682" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="154" pc="268436746" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="155" pc="268436789" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="156" pc="268436832" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="158" pc="268436866" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="159" pc="268436885" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="160" pc="268436904" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="161" pc="268436923" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="162" pc="268436948" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="163" pc="268436973" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="165" pc="268437010" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="166" pc="268437032" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="167" pc="268437060" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="168" pc="268437091" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="169" pc="268437155" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="170" pc="268437162" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="171" pc="268437169" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="173" pc="268437180" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="174" pc="268437226" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="175" pc="268437244" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="177" pc="268437251" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="178" pc="268437276" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="179" pc="268437289" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="181" pc="268437302" symbol="transform_datum"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="190" pc="268437332" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="191" pc="268437342" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="193" pc="268437352" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="194" pc="268437365" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="195" pc="268437378" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="196" pc="268437385" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="197" pc="268437392" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="198" pc="268437399" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="199" pc="268437412" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="200" pc="268437419" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="201" pc="268437426" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="202" pc="268437439" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="203" pc="268437446" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="204" pc="268437453" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="206" pc="268437460" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="207" pc="268437497" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="208" pc="268437528" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="209" pc="268437553" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="210" pc="268437566" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="211" pc="268437573" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="212" pc="268437595" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="213" pc="268437634" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="214" pc="268437671" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="215" pc="268437693" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="216" pc="268437732" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="217" pc="268437771" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="218" pc="268437823" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="220" pc="268437896" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="221" pc="268437909" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="222" pc="268437930" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="223" pc="268437937" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="224" pc="268437983" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="225" pc="268438102" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="226" pc="268438151" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="228" pc="268438227" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="234" pc="268438257" symbol="Marc"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="238" pc="268438567" symbol="Marc"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="243" pc="268438573" symbol="floor"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="248" pc="268438588" symbol="abs"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="6" pc="268439782" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="13" pc="268439792" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="14" pc="268440131" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefUtils.mc" lineNum="15" pc="268440157" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="11" pc="268438616" symbol="initialize"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="17" pc="268438632" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="18" pc="268438639" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="23" pc="268438646" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="25" pc="268438697" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="34" pc="268438764" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="35" pc="268438793" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="36" pc="268438803" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="37" pc="268438817" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="42" pc="268438874" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="43" pc="268438903" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="48" pc="268438962" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="49" pc="268438991" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="53" pc="268439036" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="54" pc="268439050" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="57" pc="268439066" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="59" pc="268439085" symbol="compute"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="64" pc="268439091" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="66" pc="268439098" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="67" pc="268439109" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="68" pc="268439126" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="71" pc="268439153" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="74" pc="268439180" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="77" pc="268439207" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="80" pc="268439234" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="83" pc="268439244" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="86" pc="268439266" symbol="render_accuracy_screen"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="93" pc="268439272" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="94" pc="268439279" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="96" pc="268439306" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="97" pc="268439316" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="98" pc="268439347" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="99" pc="268439358" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="101" pc="268439371" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="102" pc="268439382" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="104" pc="268439403" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="106" pc="268439424" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="108" pc="268439445" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="110" pc="268439466" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="112" pc="268439487" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="114" pc="268439508" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="116" pc="268439529" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="118" pc="268439539" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="121" pc="268439549" symbol="getHeading"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="126" pc="268439555" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="127" pc="268439558" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="129" pc="268439585" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="131" pc="268439602" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="132" pc="268439621" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="134" pc="268439667" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="138" pc="268439718" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="139" pc="268439725" symbol="create_gridref_util"/>
+<entry filename="C:\\Users\\mark\\git\\ukgridref\\source\\UkGridRefView.mc" lineNum="141" pc="268439759" symbol="create_gridref_util"/>
+<entry filename="Rez" lineNum="5" pc="268440216" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268440203" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
 <entry id="8389061" symbol="mMode"/>
 <entry field="true" id="8388831" symbol="SPORT_RUNNING"/>
-<entry id="13" method="true" symbol="transform_datum"/>
+<entry id="21" method="true" symbol="transform_datum"/>
 <entry field="true" id="8389423" symbol="DEVICE_STATE_CNT"/>
 <entry field="true" id="8388974" symbol="TONE_ALARM"/>
 <entry id="8388823" method="true" symbol="emptyMailbox"/>
@@ -239,7 +240,7 @@
 <entry id="8389548" symbol="&lt;tha&gt;"/>
 <entry field="true" id="8388807" symbol="BLE_REQUEST_TOO_LARGE"/>
 <entry id="8388819" method="true" symbol="makeImageRequest"/>
-<entry id="27" module="true" symbol="Menus"/>
+<entry id="25" module="true" symbol="Menus"/>
 <entry id="3" module="true" symbol="globals_Rez_Drawables"/>
 <entry id="8388630" module="true" symbol="Toybox_Position"/>
 <entry id="8389354" symbol="&lt;dut&gt;"/>
@@ -284,17 +285,17 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="30" symbol="AppName"/>
+<entry field="true" id="28" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
 <entry field="true" id="8389427" symbol="BIKE_POWER_SENSOR_TYPE_POWER_ONLY"/>
 <entry id="8389032" object="true" symbol="ConfirmationDelegate"/>
-<entry id="32" method="true" symbol="render_accuracy_screen"/>
+<entry id="30" method="true" symbol="render_accuracy_screen"/>
 <entry field="true" id="8389520" symbol="manufacturerId"/>
 <entry id="8388614" module="true" symbol="Toybox_Activity"/>
 <entry id="8389177" method="true" symbol="clear"/>
-<entry id="34" method="true" symbol="create_gridref_util"/>
+<entry id="32" method="true" symbol="create_gridref_util"/>
 <entry field="true" id="8388891" symbol="subSport"/>
 <entry field="true" id="8388964" symbol="pressure"/>
 <entry id="8389303" method="true" symbol="enableLocationEvents"/>
@@ -302,7 +303,7 @@
 <entry id="8389184" method="true" symbol="drawLine"/>
 <entry id="8389250" symbol="timestamp"/>
 <entry id="8388877" method="true" symbol="createSession"/>
-<entry field="true" id="29" symbol="LauncherIcon"/>
+<entry field="true" id="27" symbol="LauncherIcon"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
 <entry field="true" id="8389380" symbol="OBSCURE_TOP"/>
 <entry field="true" id="8389201" symbol="MSG_ID_SEARCH_TIMEOUT"/>
@@ -310,7 +311,7 @@
 <entry id="8389493" method="true" symbol="getWeightScaleStatus"/>
 <entry id="8388649" module="true" object="true" symbol="Test"/>
 <entry field="true" id="8388837" symbol="SPORT_SOCCER"/>
-<entry field="true" id="22" symbol="precision"/>
+<entry field="true" id="14" symbol="precision"/>
 <entry field="true" id="8389496" symbol="basalMetabolicRate"/>
 <entry field="true" id="8388958" symbol="speed"/>
 <entry id="8388887" symbol="mData"/>
@@ -342,7 +343,7 @@
 <entry id="8388895" method="true" symbol="acos"/>
 <entry field="true" id="8388815" symbol="INVALID_HTTP_HEADER_FIELDS_IN_NETWORK_RESPONSE"/>
 <entry field="true" id="8388801" symbol="BLE_ERROR"/>
-<entry id="11" method="true" symbol="WSG84_to_OSGB36"/>
+<entry id="20" method="true" symbol="WSG84_to_OSGB36"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry field="true" id="8389008" symbol="ANIM_TYPE_EASE_OUT"/>
 <entry id="8388943" method="true" symbol="subtract"/>
@@ -415,7 +416,7 @@
 <entry id="8389142" method="true" symbol="getProfile"/>
 <entry id="8389188" method="true" symbol="fillRectangle"/>
 <entry id="8388729" object="true" symbol="Info"/>
-<entry id="28" module="true" symbol="Layouts"/>
+<entry id="26" module="true" symbol="Layouts"/>
 <entry id="8388710" object="true" symbol="Stats"/>
 <entry field="true" id="8389152" symbol="FONT_XTINY"/>
 <entry id="8389189" method="true" symbol="fillRoundedRectangle"/>
@@ -435,7 +436,6 @@
 <entry field="true" id="8389312" symbol="when"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="8388956" method="true" symbol="setEnabledSensors"/>
-<entry id="12" method="true" symbol="isValidUKLocation"/>
 <entry id="8388619" module="true" symbol="Toybox_ActivityMonitor"/>
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry id="8389361" symbol="&lt;hrv&gt;"/>
@@ -498,7 +498,7 @@
 <entry field="true" id="8389166" symbol="COLOR_DK_GREEN"/>
 <entry id="8389259" method="true" symbol="sendAcknowledge"/>
 <entry field="true" id="8389159" symbol="COLOR_DK_GRAY"/>
-<entry id="10" method="true" symbol="toGridRef"/>
+<entry id="19" method="true" symbol="toGridRef"/>
 <entry id="8389375" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389498" symbol="bodyWeight"/>
 <entry id="8389435" object="true" symbol="CalculatedWheelDistance"/>
@@ -545,7 +545,7 @@
 <entry id="8388613" module="true" symbol="Toybox_System"/>
 <entry field="true" id="8388871" symbol="SUB_SPORT_WARM_UP"/>
 <entry field="true" id="8389172" symbol="TEXT_JUSTIFY_RIGHT"/>
-<entry field="true" id="23" symbol="alpha"/>
+<entry field="true" id="15" symbol="alpha"/>
 <entry field="true" id="8388857" symbol="SUB_SPORT_ROAD"/>
 <entry id="8388763" object="true" symbol="String"/>
 <entry id="8389469" method="true" symbol="getDownloadProgress"/>
@@ -603,7 +603,7 @@
 <entry field="true" id="8389524" symbol="swRevisionSupplemental"/>
 <entry field="true" id="8388851" symbol="SUB_SPORT_TREADMILL"/>
 <entry id="8389398" method="true" symbol="getDeviceSettings"/>
-<entry id="14" method="true" symbol="OSBG36_latlon_to_numeric_gridref"/>
+<entry id="22" method="true" symbol="OSBG36_latlon_to_numeric_gridref"/>
 <entry field="true" id="8389238" symbol="network"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="8389502" symbol="rightPedalIndicator"/>
@@ -693,8 +693,8 @@
 <entry id="8388653" method="true" symbol="testGeometryIterator"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry field="true" id="8389525" symbol="hwRevision"/>
-<entry field="true" id="31" symbol="current_second"/>
-<entry id="15" method="true" symbol="Marc"/>
+<entry field="true" id="29" symbol="current_second"/>
+<entry id="23" method="true" symbol="Marc"/>
 <entry id="6" module="true" symbol="globals_Rez_Layouts"/>
 <entry field="true" id="8389219" symbol="MSG_CODE_EVENT_TRANSFER_RX_FAILED"/>
 <entry id="8389349" symbol="justification"/>
@@ -725,7 +725,7 @@
 <entry field="true" id="8388694" symbol="count1"/>
 <entry id="8389360" symbol="&lt;hun&gt;"/>
 <entry id="8388931" symbol="getMonthHash"/>
-<entry id="26" method="true" symbol="getGR"/>
+<entry id="18" method="true" symbol="getGR"/>
 <entry field="true" id="8389146" symbol="sleepTime"/>
 <entry field="true" id="8388996" symbol="KEY_FIND"/>
 <entry field="true" id="8388803" symbol="BLE_SERVER_TIMEOUT"/>
@@ -795,7 +795,7 @@
 <entry id="8389141" object="true" symbol="Profile"/>
 <entry id="8389573" method="true" symbol="passed"/>
 <entry field="true" id="8389215" symbol="MSG_CODE_RESPONSE_NO_ERROR"/>
-<entry id="33" method="true" symbol="getHeading"/>
+<entry id="31" method="true" symbol="getHeading"/>
 <entry id="8389477" symbol="mDeviceType"/>
 <entry id="8389242" symbol="dataHigh"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
@@ -807,7 +807,7 @@
 <entry field="true" id="8389399" symbol="vibrateOn"/>
 <entry id="8389192" method="true" symbol="setPenWidth"/>
 <entry field="true" id="8388918" symbol="FORMAT_MEDIUM"/>
-<entry id="16" method="true" symbol="floor"/>
+<entry id="24" method="true" symbol="floor"/>
 <entry field="true" id="8389012" symbol="CLICK_TYPE_HOLD"/>
 <entry field="true" id="8389229" symbol="NETWORK_PUBLIC"/>
 <entry id="8389053" object="true" symbol="BitmapResource"/>
@@ -906,7 +906,7 @@
 <entry field="true" id="8389066" symbol="width"/>
 <entry id="8389078" method="true" symbol="onNextPage"/>
 <entry field="true" id="8389296" symbol="QUALITY_USABLE"/>
-<entry field="true" id="24" symbol="deg2rad"/>
+<entry field="true" id="16" symbol="deg2rad"/>
 <entry id="8389540" method="true" symbol="onTextEntered"/>
 <entry field="true" id="8389168" symbol="COLOR_DK_BLUE"/>
 <entry field="true" id="8389293" symbol="QUALITY_NOT_AVAILABLE"/>
@@ -935,14 +935,14 @@
 <entry field="true" id="8389390" symbol="arrayCount"/>
 <entry field="true" id="8388844" symbol="SPORT_SNOWBOARDING"/>
 <entry field="true" id="8388730" symbol="startLocation"/>
-<entry field="true" id="21" symbol="northing"/>
+<entry field="true" id="13" symbol="northing"/>
 <entry field="true" id="8389290" symbol="GEO_DM"/>
 <entry id="8389243" symbol="flag"/>
 <entry id="8388783" method="true" symbol="toString"/>
 <entry id="8389328" symbol="october"/>
 <entry field="true" id="8388995" symbol="KEY_ESC"/>
 <entry field="true" id="8389072" symbol="BEHAVIOR_NEXT_PAGE"/>
-<entry field="true" id="25" symbol="rad2deg"/>
+<entry field="true" id="17" symbol="rad2deg"/>
 <entry field="true" id="8389484" symbol="identificationString"/>
 <entry field="true" id="8389075" symbol="BEHAVIOR_ON_BACK"/>
 <entry id="8389097" method="true" symbol="onKey"/>
@@ -951,7 +951,7 @@
 <entry field="true" id="8388966" symbol="TONE_KEY"/>
 <entry id="8389511" method="true" symbol="getCalculatedCrankCadence"/>
 <entry field="true" id="8389220" symbol="MSG_CODE_EVENT_TRANSFER_TX_COMPLETED"/>
-<entry id="17" object="true" symbol="UkGridRefView"/>
+<entry id="10" object="true" symbol="UkGridRefView"/>
 <entry field="true" id="8389294" symbol="QUALITY_LAST_KNOWN"/>
 <entry id="8389258" method="true" symbol="release"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
@@ -983,7 +983,6 @@
 <entry field="true" id="8389263" symbol="DEFAULT_DEVICE_TYPE"/>
 <entry id="8388728" method="true" symbol="getActivityInfo"/>
 <entry field="true" id="8388751" symbol="averageCadence"/>
-<entry field="true" id="18" symbol="foreign"/>
 <entry field="true" id="8389473" symbol="separatePedalSmoothnessSupport"/>
 <entry field="true" id="8388697" symbol="timer2"/>
 <entry id="8389326" symbol="august"/>
@@ -1022,7 +1021,7 @@
 <entry field="true" id="8389451" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_5"/>
 <entry id="8388711" method="true" symbol="println"/>
 <entry field="true" id="8389450" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_4"/>
-<entry field="true" id="19" symbol="valid"/>
+<entry field="true" id="11" symbol="valid"/>
 <entry field="true" id="8389449" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_3"/>
 <entry id="8388708" object="true" symbol="BehaviorDelegate"/>
 <entry field="true" id="8389448" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_2"/>
@@ -1147,7 +1146,7 @@
 <entry field="true" id="8388977" symbol="TONE_CANARY"/>
 <entry field="true" id="8388919" symbol="FORMAT_LONG"/>
 <entry field="true" id="8389459" symbol="WEIGHT_SCALE_STATUS_RECEIVING"/>
-<entry field="true" id="20" symbol="easting"/>
+<entry field="true" id="12" symbol="easting"/>
 <entry id="8388903" method="true" symbol="sqrt"/>
 <entry id="8389370" symbol="&lt;swe&gt;"/>
 <entry id="8388692" object="true" symbol="TimerStart"/>
@@ -1208,11 +1207,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry name="WSG84_to_OSGB36">
-<param id="lat"/>
-<param id="lon"/>
-<documentation/>
-</functionEntry>
-<functionEntry name="isValidUKLocation">
 <param id="lat"/>
 <param id="lon"/>
 <documentation/>
