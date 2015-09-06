@@ -20,32 +20,36 @@ class UkGridRefView extends Ui.SimpleDataField {
 
         //
         //  Ten second display cycle - first render accuracy
-        if (current_second <= 1) {
-          content = "(" + getHeading(info) + ") " + render_accuracy_screen(info) ;
-        }
-        //
-        // Render 6 figure grid ref
-        else if (current_second <=4 ) {
-            content = create_gridref_util(info,6).toString();
-        }
-        // Flash heading
-        else if (current_second <=6 ) {
-            content = "Hdg: " + getHeading(info);
-        }
-        //
-        // Render 6 figure grid ref
-        else if (current_second <=MAX_SECOND   ) {
-            content = create_gridref_util(info,6).toString();
-        }
+      if (info has :currentLocationAccuracy && info.currentLocationAccuracy < 4 &&  current_second <= 1  )
+      {
+          content = "GPS:" + render_accuracy_screen(info)  + " (" + getHeading(info) +")";
+      }
+      //
+      // Render 6 figure grid ref
+      else if (current_second <=3 ) {
+            var gr = create_gridref_util(info,6).getGR();
+            content = gr[0] + " " + gr[1] + " " + gr[2];
+      }
+      // Show Easting
+      else if (current_second <=6 ) {
+            var gr = create_gridref_util(info,8).getGR();
+            content =  "E" + gr[1] + " (" + getHeading(info) +")";
+      }
+      //
+      // Show northing
+      else if (current_second <=MAX_SECOND   ) {
+            var gr = create_gridref_util(info,8).getGR();
+            content =  "N" + gr[2] + " (" + getHeading(info) +")";
+      }
         //
         //  Increment and wrap current second
         if (current_second == MAX_SECOND ) {
           current_second = 0;
-        }
-        else {
+      }
+      else {
           current_second += 1;
-        }
-        return content;
+      }
+      return content;
     }
 
     function render_accuracy_screen(info)

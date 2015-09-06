@@ -40,8 +40,8 @@ class UkGridRefUtils
    // return [t,e,n,valid]; // text, easting, northing, valid
   }
 
-  function toString () {
-    return text + easting + northing;
+  function getGR () {
+    return [text, easting , northing];
   }
 }
 //  Convert numeric Easting and Northing to a Grid Ref
@@ -50,8 +50,8 @@ class UkGridRefUtils
 function toGridRef(east, north, precision, valid)
 {
       var t = foreign;
-      var e = "";
-      var n = "";
+      var e = "????";
+      var n = "????";
 //System.println("numeric grid "  + east.toString() + "," + north.toString() );
       //
       // Easting & Northing must be >= 0
@@ -87,6 +87,10 @@ function toGridRef(east, north, precision, valid)
              e = (east - (100000 * hundredkmE)) / 100;  // For 6 figure grid ref
              n = (north - (100000 * hundredkmN)) / 100;
           }
+          else if (precision == 8) {
+             e = (east - (100000 * hundredkmE)) / 10;  // For 8 figure grid ref
+             n = (north - (100000 * hundredkmN)) / 10;
+          }
           else
           {
              e = (east - (100000 * hundredkmE));
@@ -102,8 +106,8 @@ function toGridRef(east, north, precision, valid)
 
     if (valid == false) {
         t = foreign;
-        e = "";
-        n = "";
+        e = "????";
+        n = "????";
     }
     return [t,e,n,valid]; // text, easting, northing, valid
 }
