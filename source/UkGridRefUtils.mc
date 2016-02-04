@@ -22,6 +22,11 @@ class UkGridRefUtils
     }
     latitude = lat.toFloat();
     longitude = lon.toFloat();
+    if (p != 6 and p != 8 and p != 10) 
+    {
+      System.println("Incorrect precision value (" + p + ")- must be one of: 6, 8 or 10.  Default of 10 will be used" );
+      p = 10;
+    }
     precision = p;
     //
     // Check we have a valid UK lat & long
@@ -92,21 +97,20 @@ class UkGridRefUtils
             if (index >= 0 && index < alpha.size() )
             {
               secondLetter = alpha[index.toNumber()];
-              if (precision == 6) {
-                 e = (east - (100000 * hundredkmE)) / 100;  // For 6 figure grid ref
-                 n = (north - (100000 * hundredkmN)) / 100;
-              }
-              else if (precision == 8) {
-                 e = (east - (100000 * hundredkmE)) / 10;  // For 8 figure grid ref
-                 n = (north - (100000 * hundredkmN)) / 10;
-              }
-              else
+              var format_string = "%0" + precision/2 + "u"; // zero fill format 
+              var precision_modifier = 1; // Default to 10 figure grid ref 
+              if (precision == 6)   // For 6 figure grid ref drop last 2 digits
               {
-                 e = (east - (100000 * hundredkmE));
-                 n = (north - (100000 * hundredkmN));
+                 precision_modifier = 100; 
               }
-              valid = true;
+              else if (precision == 8)  // For 8 figure grid ref drop last digit
+              {
+                 precision_modifier = 10; 
+              }
+              e = ((east - (100000 * hundredkmE)) / precision_modifier).format(format_string);  
+              n = ((north - (100000 * hundredkmN)) / precision_modifier).format(format_string);
               t = (firstLetter+secondLetter);
+              valid = true;
             }
             else {
                 valid = false;
