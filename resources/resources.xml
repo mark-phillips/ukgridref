@@ -2,4 +2,63 @@
     <string id="AppName">OSGridRef</string>
 
     <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+    
+
+    <properties>
+        <property id="GRID_REF_PRECISION" type="number">6</property>
+        <property id="GRID_REF_DISPLAY_TIME" type="number">5</property>
+        <property id="SHOW_EASTINGS_NORTHINGS" type="boolean">true</property>
+        <property id="EASTINGS_NORTHINGS_DISPLAY_TIME" type="number">3</property>
+        <property id="SHOW_HEADING" type="boolean">false</property>
+        <property id="HEADING_DISPLAY_TIME" type="number">3</property>
+    </properties>
+
+    <strings>
+       <string id="title_precision">Grid Ref Precision:</string>
+       <string id="opt_precision_6">6 figure</string>
+       <string id="opt_precision_8">8 figure</string>
+       <string id="grid_ref_delay">Grid Ref Display Time:</string>
+       <string id="grid_ref_delay_error">Please enter a value between 1 and 60.</string>
+       <string id="show_eastings_northings">Show Eastings/Northings screen?:</string>
+       <string id="eastings_northings_delay">Eastings/Northings display time?</string>
+       <string id="eastings_northings_delay_error">Please enter a value between 1 and 30.</string>
+       <string id="show_heading">Show Heading screen?:</string>
+       <string id="heading_delay">Heading display time?:</string>
+       <string id="heading_delay_error">Please enter a value between 1 and 30.</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.GRID_REF_PRECISION" title="@Strings.title_precision">
+            <settingConfig type="list">
+            	<listEntry value="6">@Rez.Strings.opt_precision_6</listEntry>
+            	<listEntry value="8">@Rez.Strings.opt_precision_8</listEntry>
+            </settingConfig>
+        </setting>
+        
+        <setting propertyKey="@Properties.GRID_REF_DISPLAY_TIME" title="@Strings.grid_ref_delay">
+            <settingConfig type="numeric" min="1" max="60" errorMessage="@Strings.grid_ref_delay_error"/>
+        </setting>
+
+        <setting propertyKey="@Properties.SHOW_EASTINGS_NORTHINGS" title="@Strings.show_eastings_northings">
+            <settingConfig type="boolean"  />
+        </setting>
+        
+        <setting propertyKey="@Properties.EASTINGS_NORTHINGS_DISPLAY_TIME" title="@Strings.eastings_northings_delay">
+            <settingConfig type="numeric" min="1" max="30" errorMessage="@Strings.eastings_northings_delay_error"/>
+        </setting>
+        
+        <setting propertyKey="@Properties.SHOW_HEADING" title="@Strings.show_heading">
+            <settingConfig type="boolean"  />
+        </setting>
+        
+        <setting propertyKey="@Properties.HEADING_DISPLAY_TIME" title="@Strings.heading_delay">
+            <settingConfig type="numeric" min="1" max="30" errorMessage="@Strings.heading_delay"/>
+        </setting>
+        
+        <setting propertyKey="@Properties.EASTINGS_NORTHINGS_DISPLAY_TIME" title="@Strings.eastings_northings_delay">
+            <settingConfig type="numeric" min="1" max="30" errorMessage="@Strings.heading_delay_error"/>
+        </setting>
+        
+    </settings>
+    
 </resources>

@@ -5,57 +5,135 @@ using Toybox.Activity;
 
 class UkGridRefView extends Ui.SimpleDataField {
   var current_second = 0;
+  var current_screen = 0;
+  var MAX_SCREENS = 4; // GridRef, Eastings, Northings, Heading
+  var current_screen_display_time = new [MAX_SCREENS];
+  var SHOW_GRID_REF = true;
+  var SHOW_EASTINGS_NORTHINGS = true;
+  var SHOW_HEADING = false;
+  var HEADING_DISPLAY_TIME = 3;
+  var GRID_REF_PRECISION = 6;
+  var updateSettings = false;
+
 
     //! Set the label of the data field here.
     function initialize() {
        label = "GridRef";
+       RetrieveSettings() ;
     }
+
+    function onSettingsChanged() {
+      updateSettings = true;
+    }
+    // Pick up settings changes
+    function RetrieveSettings() {
+      GRID_REF_PRECISION = Application.getApp().getProperty("GRID_REF_PRECISION");
+      current_screen_display_time[0] = Application.getApp().getProperty("GRID_REF_DISPLAY_TIME");
+      SHOW_EASTINGS_NORTHINGS = Application.getApp().getProperty("SHOW_EASTINGS_NORTHINGS");
+      current_screen_display_time[1] = Application.getApp().getProperty("EASTINGS_NORTHINGS_DISPLAY_TIME");
+      current_screen_display_time[2] = Application.getApp().getProperty("EASTINGS_NORTHINGS_DISPLAY_TIME");
+      SHOW_HEADING = Application.getApp().getProperty("SHOW_HEADING");
+      current_screen_display_time[3] = Application.getApp().getProperty("HEADING_DISPLAY_TIME");
+
+System.println("GRID_REF_PRECISION " + GRID_REF_PRECISION );
+System.println("current_screen_display_time[0] " + current_screen_display_time[0] );
+System.println("SHOW_EASTINGS_NORTHINGS " + SHOW_EASTINGS_NORTHINGS );
+System.println("current_screen_display_time[1] " + current_screen_display_time[1] );
+System.println("current_screen_display_time[2] " + current_screen_display_time[2] );
+System.println("SHOW_HEADING " + SHOW_HEADING );
+System.println("current_screen_display_time[3] " + current_screen_display_time[3] );
+    }
+
 
     //! The given info object contains all the current workout
     //! information. Calculate a value and return it in this method.
     function compute(info) {
-        var content = "Unknown!";
-        var MAX_SECOND = 9 ;
-//System.println("sec: " + current_second );
-
-        //
-        //  Ten second display cycle - first render accuracy if GPS is not "good"
-      if (info has :currentLocationAccuracy && info.currentLocationAccuracy < 4 &&  current_second <= 1  )
-      {
-          content = "GPS:" + render_accuracy_screen(info)  + " (" + getHeading(info) +")";
+      var content = "Unknown!";
+      if (updateSettings == true) {
+        RetrieveSettings() ;
+        updateSettings = false;
       }
-      //
-      // Render 6 figure grid ref
-      //  gr[0] - Grid square
-      //  gr[1] - Easting
-      //  gr[2] - Northing
-      //  gr[3] - Grid ref valid?
-      else if (current_second <=3 ) {
-            var gr = create_gridref_util(info,6).getGR();
+
+      var displayed_content = false;
+      do {
+        //
+          //  Render accuracy if GPS is not "good"
+        if (info has :currentLocationAccuracy && info.currentLocationAccuracy < 4 &&  current_second <= 1  )
+        {
+          content = "GPS:" + render_accuracy_screen(info)  + " (" + getHeading(info) +")";
+          displayed_content = true;
+        }
+        //
+        // Render 6 or 8 figure grid ref
+        //  gr[0] - Grid square
+        //  gr[1] - Easting
+        //  gr[2] - Northing
+        //  gr[3] - Grid ref valid?
+        else {
+          if ( 0 == current_screen   ) {
+            var gr = null;
+            if (8 == GRID_REF_PRECISION ) {
+              gr = create_gridref_util(info,8).getGR();
+            }
+            else {
+              gr = create_gridref_util(info,6).getGR();
+            }
             content = gr[0];
+            displayed_content = true;
             if (gr[3] == true) {
               content += " " + gr[1] + " " + gr[2];
             }
-      }
-      // Show Easting & heading
-      else if (current_second <=6 ) {
-            var gr = create_gridref_util(info,8).getGR();
-            content =  "E" + gr[1] + " (" + getHeading(info) +")";
-      }
-      //
-      // Show Northing & heading
-      else if (current_second <=MAX_SECOND   ) {
-            var gr = create_gridref_util(info,8).getGR();
-            content =  "N" + gr[2] + " (" + getHeading(info) +")";
-      }
+          }
+          // Show Easting & heading
+          if (current_screen == 1  ) {
+            if (SHOW_EASTINGS_NORTHINGS == true ){
+              var gr = create_gridref_util(info,8).getGR();
+              content =  "E" + gr[1] + " (" + getHeading(info) +")";
+              displayed_content = true;
+            }
+            else  { // move to next screen
+              current_screen += 1;
+            }
+          }
+          //
+          // Show Northing & heading
+          if (current_screen == 2  ) {
+            if (SHOW_EASTINGS_NORTHINGS == true ){
+              var gr = create_gridref_util(info,8).getGR();
+              content =  "N" + gr[2] + " (" + getHeading(info) +")";
+              displayed_content = true;
+            }
+            else  { // move to next screen
+              current_screen += 1;
+            }
+          }
+          //
+          // Show Heading
+          if (current_screen == 3  ) {
+            if (SHOW_HEADING == true ){
+               content =  "Hdg: " + getHeading(info);
+               displayed_content = true;
+             }
+             else  { // move to next screen
+               current_screen += 1;
+             }
+           }
+        }
         //
         //  Increment and wrap current second
-        if (current_second == MAX_SECOND ) {
+System.println("current_screen " + current_screen +" current_second " + current_second);
+
+        if (current_screen == MAX_SCREENS or current_second >= current_screen_display_time[current_screen]-1 ) {
           current_second = 0;
-      }
-      else {
+          current_screen += 1;
+          if (current_screen >= MAX_SCREENS) {
+            current_screen = 0;
+          }
+        }
+        else {
           current_second += 1;
-      }
+        }
+      } while (false == displayed_content); // if we didn't find anything to display, loop
       return content;
     }
 
