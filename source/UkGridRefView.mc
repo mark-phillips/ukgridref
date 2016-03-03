@@ -22,9 +22,6 @@ class UkGridRefView extends Ui.SimpleDataField {
        RetrieveSettings() ;
     }
 
-    function onSettingsChanged() {
-      updateSettings = true;
-    }
     // Pick up settings changes
     function RetrieveSettings() {
       GRID_REF_PRECISION = Application.getApp().getProperty("GRID_REF_PRECISION");
@@ -35,13 +32,13 @@ class UkGridRefView extends Ui.SimpleDataField {
       SHOW_HEADING = Application.getApp().getProperty("SHOW_HEADING");
       current_screen_display_time[3] = Application.getApp().getProperty("HEADING_DISPLAY_TIME");
 
-System.println("GRID_REF_PRECISION " + GRID_REF_PRECISION );
-System.println("current_screen_display_time[0] " + current_screen_display_time[0] );
-System.println("SHOW_EASTINGS_NORTHINGS " + SHOW_EASTINGS_NORTHINGS );
-System.println("current_screen_display_time[1] " + current_screen_display_time[1] );
-System.println("current_screen_display_time[2] " + current_screen_display_time[2] );
-System.println("SHOW_HEADING " + SHOW_HEADING );
-System.println("current_screen_display_time[3] " + current_screen_display_time[3] );
+//System.println("GRID_REF_PRECISION " + GRID_REF_PRECISION );
+//System.println("current_screen_display_time[0] " + current_screen_display_time[0] );
+//System.println("SHOW_EASTINGS_NORTHINGS " + SHOW_EASTINGS_NORTHINGS );
+//System.println("current_screen_display_time[1] " + current_screen_display_time[1] );
+//System.println("current_screen_display_time[2] " + current_screen_display_time[2] );
+//System.println("SHOW_HEADING " + SHOW_HEADING );
+//System.println("current_screen_display_time[3] " + current_screen_display_time[3] );
     }
 
 
@@ -58,9 +55,11 @@ System.println("current_screen_display_time[3] " + current_screen_display_time[3
       do {
         //
           //  Render accuracy if GPS is not "good"
-        if (info has :currentLocationAccuracy && info.currentLocationAccuracy < 4 &&  current_second <= 1  )
+        if (info has :currentLocationAccuracy && info.currentLocationAccuracy < 4
+            &&  current_second <= 1
+            && current_screen == 0 )
         {
-          content = "GPS:" + render_accuracy_screen(info)  + " (" + getHeading(info) +")";
+          content = "GPS:" + render_accuracy_screen(info);
           displayed_content = true;
         }
         //
@@ -88,7 +87,7 @@ System.println("current_screen_display_time[3] " + current_screen_display_time[3
           if (current_screen == 1  ) {
             if (SHOW_EASTINGS_NORTHINGS == true ){
               var gr = create_gridref_util(info,8).getGR();
-              content =  "E" + gr[1] + " (" + getHeading(info) +")";
+              content =  "E" + gr[1] + " (" + getHeading(info)[0] +")";
               displayed_content = true;
             }
             else  { // move to next screen
@@ -100,7 +99,7 @@ System.println("current_screen_display_time[3] " + current_screen_display_time[3
           if (current_screen == 2  ) {
             if (SHOW_EASTINGS_NORTHINGS == true ){
               var gr = create_gridref_util(info,8).getGR();
-              content =  "N" + gr[2] + " (" + getHeading(info) +")";
+              content =  "N" + gr[2] + " (" + getHeading(info)[0] +")";
               displayed_content = true;
             }
             else  { // move to next screen
@@ -111,7 +110,8 @@ System.println("current_screen_display_time[3] " + current_screen_display_time[3
           // Show Heading
           if (current_screen == 3  ) {
             if (SHOW_HEADING == true ){
-               content =  "Hdg: " + getHeading(info);
+               var heading = getHeading(info);
+               content =  "Hdg: " + heading[0] + " " + heading[1];
                displayed_content = true;
              }
              else  { // move to next screen
@@ -121,9 +121,9 @@ System.println("current_screen_display_time[3] " + current_screen_display_time[3
         }
         //
         //  Increment and wrap current second
-System.println("current_screen " + current_screen +" current_second " + current_second);
+//System.println("current_screen " + current_screen +" current_second " + current_second);
 
-        if (current_screen == MAX_SCREENS or current_second >= current_screen_display_time[current_screen]-1 ) {
+        if (current_screen >= MAX_SCREENS or current_second >= current_screen_display_time[current_screen]-1 ) {
           current_second = 0;
           current_screen += 1;
           if (current_screen >= MAX_SCREENS) {
@@ -168,7 +168,8 @@ System.println("current_screen " + current_screen +" current_second " + current_
   //  Calculate heading
     function getHeading(info)
     {
-      var heading = "?";
+      var heading = "??";
+      var  degree_string = "???";
       if (info has :currentHeading && info.currentHeading != null )
       {
         heading = info.currentHeading;
@@ -195,8 +196,9 @@ System.println("current_screen " + current_screen +" current_second " + current_
         } else {
           heading = "N";
         }
+        degree_string = degrees.format("%03u");
       }
-      return heading;
+      return [heading, degree_string];
     }
 
     function create_gridref_util(info,precision)
