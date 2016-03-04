@@ -111,7 +111,7 @@ class UkGridRefView extends Ui.SimpleDataField {
           if (current_screen == 3  ) {
             if (SHOW_HEADING == true ){
                var heading = getHeading(info);
-               content =  "Hdg: " + heading[0] + " " + heading[1];
+               content =  heading[1] + " " + heading[0];
                displayed_content = true;
              }
              else  { // move to next screen
@@ -170,35 +170,27 @@ class UkGridRefView extends Ui.SimpleDataField {
     {
       var heading = "??";
       var  degree_string = "???";
+      var  index = 0;
+//      var directions = [ "N", "NE", "E", "SE", "S", "SW", "W", "NW", "N" ];
+      var directions = [ "N", "NNE","NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW","SW",  "WSW", "W", "WNW","NW",  "NNW", "N" ];
       if (info has :currentHeading && info.currentHeading != null )
       {
         heading = info.currentHeading;
+        var degree_int = 0;
         var degrees = info.currentHeading * 180 / Math.PI;
         if (degrees  < 0) {
           degrees  += 360.0;
         }
-        if (degrees <= 22.5) {
-          heading = "N";
-        } else if (degrees < 67.5) {
-          heading = "NE";
-        } else if (degrees <= 112.5) {
-          heading = "E";
-        } else if (degrees < 157.5) {
-            heading = "SE";
-        } else if (degrees <= 202.5) {
-          heading = "S";
-        } else if (degrees < 247.5) {
-          heading = "SW";
-        } else if (degrees <= 292.5) {
-          heading = "W";
-        } else if (degrees < 337.5) {
-          heading = "NW";
+
+        if (degrees instanceof Toybox.Lang.Float) {
+          degree_string = degrees.toNumber().format("%03u");
         } else {
-          heading = "N";
+          degree_string = degrees.format("%03u");
         }
-        degree_string = degrees.format("%03u");
+        index = ((degrees + 12) / 22.5).toNumber();
+//      System.println( index +" " +   degree_string + " " + directions[index] );
       }
-      return [heading, degree_string];
+      return [directions[index], degree_string];
     }
 
     function create_gridref_util(info,precision)
