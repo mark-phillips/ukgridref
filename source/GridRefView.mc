@@ -3,42 +3,49 @@ using Toybox.System;
 using Toybox.Lang as Lang;
 using Toybox.Activity;
 
-class UkGridRefView extends Ui.SimpleDataField {
-  var current_second = 0;
-  var current_screen = 0;
-  var MAX_SCREENS = 4; // GridRef, Eastings, Northings, Heading
-  var current_screen_display_time = new [MAX_SCREENS];
-  var SHOW_GRID_REF = true;
-  var SHOW_EASTINGS_NORTHINGS = true;
-  var SHOW_HEADING = false;
-  var HEADING_DISPLAY_TIME = 3;
-  var GRID_REF_PRECISION = 6;
-  var updateSettings = false;
-
+class GridRefView extends Ui.SimpleDataField {
+    var current_second = 0;
+    var current_screen = 0;
+    var MAX_SCREENS = 4; // GridRef, Eastings, Northings, Heading
+    var current_screen_display_time = new [MAX_SCREENS];
+    var SHOW_GRID_REF = true;
+    var SHOW_EASTINGS_NORTHINGS = true;
+    var SHOW_HEADING = false;
+    var HEADING_DISPLAY_TIME = 3;
+    var GRID_REF_PRECISION = 6;
+    var updateSettings = false;
+    var debug =0;
+    var grid_type = 2;
 
     //! Set the label of the data field here.
-    function initialize() {
-       label = "GridRef";
-       RetrieveSettings() ;
+    function initialize(lab,type) {
+        SimpleDataField.initialize();
+        label = lab;
+        RetrieveSettings();
+        grid_type = type;
     }
 
     // Pick up settings changes
     function RetrieveSettings() {
-      GRID_REF_PRECISION = Application.getApp().getProperty("GRID_REF_PRECISION");
-      current_screen_display_time[0] = Application.getApp().getProperty("GRID_REF_DISPLAY_TIME");
-      SHOW_EASTINGS_NORTHINGS = Application.getApp().getProperty("SHOW_EASTINGS_NORTHINGS");
-      current_screen_display_time[1] = Application.getApp().getProperty("EASTINGS_NORTHINGS_DISPLAY_TIME");
-      current_screen_display_time[2] = Application.getApp().getProperty("EASTINGS_NORTHINGS_DISPLAY_TIME");
-      SHOW_HEADING = Application.getApp().getProperty("SHOW_HEADING");
-      current_screen_display_time[3] = Application.getApp().getProperty("HEADING_DISPLAY_TIME");
+        GRID_REF_PRECISION = Application.getApp().getProperty("PRECISION");
+        current_screen_display_time[0] = Application.getApp().getProperty("DSP_TIME");
+        SHOW_EASTINGS_NORTHINGS = Application.getApp().getProperty("SHOW_EN");
+        current_screen_display_time[1] = Application.getApp().getProperty("EN_TIME");
+        current_screen_display_time[2] = Application.getApp().getProperty("EN_TIME");
+        SHOW_HEADING = Application.getApp().getProperty("SHOW_HDG");
+        current_screen_display_time[3] = Application.getApp().getProperty("HDG_TIME");
 
-//System.println("GRID_REF_PRECISION " + GRID_REF_PRECISION );
-//System.println("current_screen_display_time[0] " + current_screen_display_time[0] );
-//System.println("SHOW_EASTINGS_NORTHINGS " + SHOW_EASTINGS_NORTHINGS );
-//System.println("current_screen_display_time[1] " + current_screen_display_time[1] );
-//System.println("current_screen_display_time[2] " + current_screen_display_time[2] );
-//System.println("SHOW_HEADING " + SHOW_HEADING );
-//System.println("current_screen_display_time[3] " + current_screen_display_time[3] );
+//        if (debug ==1) {
+//
+ //           System.println("COORDINATE_TYPE " + COORDINATE_TYPE );
+  //          System.println("GRID_REF_PRECISION " + GRID_REF_PRECISION );
+   //         System.println("current_screen_display_time[0] " + current_screen_display_time[0] );
+    //        System.println("SHOW_EASTINGS_NORTHINGS " + SHOW_EASTINGS_NORTHINGS );
+     //       System.println("current_screen_display_time[1] " + current_screen_display_time[1] );
+      //      System.println("current_screen_display_time[2] " + current_screen_display_time[2] );
+       //     System.println("SHOW_HEADING " + SHOW_HEADING );
+        //    System.println("current_screen_display_time[3] " + current_screen_display_time[3] );
+        //}
     }
 
 
@@ -55,8 +62,10 @@ class UkGridRefView extends Ui.SimpleDataField {
       do {
         //
           //  Render accuracy if GPS is not "good"
-        if (info has :currentLocationAccuracy && info.currentLocationAccuracy < 4
-            &&  current_second <= 1
+        if (info has :currentLocationAccuracy
+            && info.currentLocationAccuracy != null
+            && info.currentLocationAccuracy < 4
+            && current_second <= 1
             && current_screen == 0 )
         {
           content = "GPS:" + render_accuracy_screen(info);
@@ -201,16 +210,23 @@ class UkGridRefView extends Ui.SimpleDataField {
           if (info.currentLocation has :toDegrees )
           {
             var degrees = info.currentLocation.toDegrees();
-            if (degrees != null and degrees[0] != null and  degrees.size() == 2)
+            if (degrees != null and degrees[0] != null and degrees.size() == 2)
             {
-              location =  new UkGridRefUtils(degrees[0], degrees[1], precision );
+                location =  create_gridref(degrees[0], degrees[1], precision );
             }
           }
         }
         if (location == null) {
-          location = new UkGridRefUtils(null, null, 6 );
+            location =  create_gridref(null,null,6);
         }
        return location;
+    }
+    function create_gridref(lat,lon,precision) {
+        if (grid_type == 1) {
+            return new OSGridRef(lat,lon, precision );
+        } else {
+            return new IrishGridRef(lat,lon, precision );
+        }
     }
 }
 

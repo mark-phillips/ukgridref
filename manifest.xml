@@ -2,6 +2,9 @@
     <iq:application entry="UkGridRefApp" id="67976919cf544b2e8604355948d083e1" launcherIcon="LauncherIcon" name="AppName" type="datafield">
 
         <iq:products>
+            <iq:product id="fenix5"/>
+            <iq:product id="fenix5x"/>
+            <iq:product id="fenix5s"/>
             <iq:product id="fr630"/>
             <iq:product id="fr235"/>
             <iq:product id="fr735xt"/>
@@ -9,6 +12,7 @@
             <iq:product id="vivoactive"/>
             <iq:product id="fenix3"/>
             <iq:product id="fenix3_hr"/>
+            <iq:product id="fenixchronos"/>
             <iq:product id="d2bravo"/>
             <iq:product id="d2bravo_titanium"/>
             <iq:product id="fr920xt"/>
@@ -16,6 +20,9 @@
             <iq:product id="edge_1000"/>
             <iq:product id="edge_520"/>
             <iq:product id="vivoactive_hr"/>
+            <iq:product id="edge820"/>
+            <iq:product id="oregon7xx"/>
+            <iq:product id="rino7xx"/>
         </iq:products>
 
         <iq:permissions>

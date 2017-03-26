@@ -5,12 +5,12 @@
     
 
     <properties>
-        <property id="GRID_REF_PRECISION" type="number">6</property>
-        <property id="GRID_REF_DISPLAY_TIME" type="number">5</property>
-        <property id="SHOW_EASTINGS_NORTHINGS" type="boolean">true</property>
-        <property id="EASTINGS_NORTHINGS_DISPLAY_TIME" type="number">3</property>
-        <property id="SHOW_HEADING" type="boolean">false</property>
-        <property id="HEADING_DISPLAY_TIME" type="number">3</property>
+        <property id="PRECISION" type="number">6</property>
+        <property id="DSP_TIME" type="number">5</property>
+        <property id="SHOW_EN" type="boolean">true</property>
+        <property id="EN_TIME" type="number">3</property>
+        <property id="SHOW_HDG" type="boolean">false</property>
+        <property id="HDG_TIME" type="number">3</property>
     </properties>
 
     <strings>
@@ -28,35 +28,31 @@
     </strings>
 
     <settings>
-        <setting propertyKey="@Properties.GRID_REF_PRECISION" title="@Strings.title_precision">
+        <setting propertyKey="@Properties.PRECISION" title="@Strings.title_precision">
             <settingConfig type="list">
             	<listEntry value="6">@Rez.Strings.opt_precision_6</listEntry>
             	<listEntry value="8">@Rez.Strings.opt_precision_8</listEntry>
             </settingConfig>
         </setting>
         
-        <setting propertyKey="@Properties.GRID_REF_DISPLAY_TIME" title="@Strings.grid_ref_delay">
+        <setting propertyKey="@Properties.DSP_TIME" title="@Strings.grid_ref_delay">
             <settingConfig type="numeric" min="1" max="60" errorMessage="@Strings.grid_ref_delay_error"/>
         </setting>
 
-        <setting propertyKey="@Properties.SHOW_EASTINGS_NORTHINGS" title="@Strings.show_eastings_northings">
+        <setting propertyKey="@Properties.SHOW_EN" title="@Strings.show_eastings_northings">
             <settingConfig type="boolean"  />
         </setting>
         
-        <setting propertyKey="@Properties.EASTINGS_NORTHINGS_DISPLAY_TIME" title="@Strings.eastings_northings_delay">
+        <setting propertyKey="@Properties.EN_TIME" title="@Strings.eastings_northings_delay">
             <settingConfig type="numeric" min="1" max="30" errorMessage="@Strings.eastings_northings_delay_error"/>
         </setting>
         
-        <setting propertyKey="@Properties.SHOW_HEADING" title="@Strings.show_heading">
+        <setting propertyKey="@Properties.SHOW_HDG" title="@Strings.show_heading">
             <settingConfig type="boolean"  />
         </setting>
         
-        <setting propertyKey="@Properties.HEADING_DISPLAY_TIME" title="@Strings.heading_delay">
+        <setting propertyKey="@Properties.HDG_TIME" title="@Strings.heading_delay">
             <settingConfig type="numeric" min="1" max="30" errorMessage="@Strings.heading_delay"/>
-        </setting>
-        
-        <setting propertyKey="@Properties.EASTINGS_NORTHINGS_DISPLAY_TIME" title="@Strings.eastings_northings_delay">
-            <settingConfig type="numeric" min="1" max="30" errorMessage="@Strings.heading_delay_error"/>
         </setting>
         
     </settings>
