@@ -129,10 +129,9 @@ class GridRefView extends Ui.SimpleDataField {
            }
         }
         //
-        //  Increment and wrap current second
-//System.println("current_screen " + current_screen +" current_second " + current_second);
-
-        if (current_screen >= MAX_SCREENS or current_second >= current_screen_display_time[current_screen]-1 ) {
+        //  Increment time and screen / wrap current second
+        if (current_screen >= MAX_SCREENS
+           or current_second >= current_screen_display_time[current_screen]-1 ) {
           current_second = 0;
           current_screen += 1;
           if (current_screen >= MAX_SCREENS) {
@@ -210,8 +209,14 @@ class GridRefView extends Ui.SimpleDataField {
           if (info.currentLocation has :toDegrees )
           {
             var degrees = info.currentLocation.toDegrees();
-            if (degrees != null and degrees[0] != null and degrees.size() == 2)
-            {
+            if (degrees != null and degrees[0] != null and degrees.size() == 2) {
+                if (debug) {
+                    if (grid_type == 1) { // OSGB
+                        degrees[0] = 51.063237; degrees[1] =  -1.3306010; //
+                    } else {  // OSI
+                        degrees[0] = 53.34979538; degrees[1] =  -6.2602533; // spire of dublin
+                    }
+                }
                 location =  create_gridref(degrees[0], degrees[1], precision );
             }
           }
@@ -221,6 +226,8 @@ class GridRefView extends Ui.SimpleDataField {
         }
        return location;
     }
+    // Of course irish and gb grids should be sub-classes but that blows the
+    // 16k memory limit for a simple datafield on most older devices
     function create_gridref(lat,lon,precision) {
         if (grid_type == 1) {
             return new OSGridRef(lat,lon, precision );
