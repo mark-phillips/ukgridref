@@ -1,0 +1,6 @@
+project.manifest = manifest.xml
+excludeAnnotations = test
+commondir = "C:\Users\markp\Documents\eclipse-workspaces\garmin\GridRefCommonCode\source"
+base.sourcePath = $(commondir);$(base.sourcePath)
+ukdir = "C:\Users\markp\Documents\eclipse-workspaces\garmin\UkGridrefShared\source"
+base.sourcePath = $(base.sourcePath);$(ukdir);$(commondir)

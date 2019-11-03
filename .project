@@ -14,16 +14,4 @@
 	<natures>
 		<nature>connectiq.projectNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>source/GridRef.mc</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/ukgridrefTest/source/GridRef.mc</locationURI>
-		</link>
-		<link>
-			<name>source/OSGridRef.mc</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/ukgridrefTest/source/OSGridRef.mc</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
