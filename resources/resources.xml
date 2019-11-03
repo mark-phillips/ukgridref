@@ -1,7 +1,7 @@
 <resources>
     <string id="AppName">OSGridRef</string>
 
-    <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+    <bitmap id="LauncherIcon" filename="images/icon.png" />
     
 
     <properties>
