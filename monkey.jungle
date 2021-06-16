@@ -1,6 +1,5 @@
 project.manifest = manifest.xml
 excludeAnnotations = test
 commondir = "..\GridRefCommonCode\source"
-base.sourcePath = $(commondir);$(base.sourcePath)
 ukdir = "..\UkGridrefShared\source"
 base.sourcePath = $(base.sourcePath);$(ukdir);$(commondir)
